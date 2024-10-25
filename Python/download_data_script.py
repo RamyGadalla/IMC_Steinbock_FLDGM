@@ -3,7 +3,7 @@
 """
 Created on Tue Sep 27 16:38:44 2022
 
-@author: ramygadalla
+@author: 
 """
 
 #remember to set the env to 'imcsegpipe'
