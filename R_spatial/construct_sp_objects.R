@@ -8,14 +8,14 @@ library(stringr)
 library(RColorBrewer)
 
 #read data into spe object
-spe <- read_cpout("/Volumes/GoogleDrive/My Drive/spatial/analysis/cpout/")
+spe <- read_cpout("")
 rownames(spe) <- rowData(spe)$Clean_Target
 spe
 
 colnames(spe) <- paste0(spe$sample_id, "_", spe$ObjectNumber)
 
 #read extra metadata and add it
-meta <- read.xlsx("/Volumes/GoogleDrive/My Drive/spatial/sample_metadata.xlsx")
+meta <- read.xlsx("")
 
 spe$indication <- meta$Indication[match(spe$Metadata_acname, meta$Sample.ID)]
 colData(spe)$patient_id <- colData(spe)$Metadata_acname
@@ -58,8 +58,8 @@ color_vectors$indication <- indication
 
 ## Images
 #Add images to CytoImagelist (one for masks and one for multi channel tiff images )
-images <- loadImages("/Volumes/GoogleDrive/My Drive/spatial/analysis/cpout/images/")
-masks <- loadImages("/Volumes/GoogleDrive/My Drive/spatial/analysis/cpout/masks/", as.is = TRUE)
+images <- loadImages("")
+masks <- loadImages("", as.is = TRUE)
 
 channelNames(images) <- rownames(spe)
 all.equal(channelNames(images), rownames(rowData(spe)))
@@ -86,9 +86,9 @@ mcols(images) <- mcols(masks) <- DataFrame(sample_id = names(images),
 
 
 #save RDS object
-saveRDS(spe,"/Volumes/GoogleDrive/My Drive/spatial/RDS/spe_steinbock_use.rds")
-saveRDS(masks, "/Volumes/GoogleDrive/My Drive/spatial/RDS/masks.rds")
-saveRDS(images, "/Volumes/GoogleDrive/My Drive/spatial/RDS/images.rds")
+saveRDS(spe,"")
+saveRDS(masks, "")
+saveRDS(images, "")
 
 
 
