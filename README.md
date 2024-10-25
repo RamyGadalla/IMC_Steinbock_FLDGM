@@ -31,5 +31,6 @@ This repository contains scripts and resources for working with Imaging Mass Cyt
 - **Ilastik**
 
 
+![](https://github.com/RamyGadalla/IMC_Steinbock_FLDGM/blob/main/Tissue_archit_graph.png)
 
 ##
