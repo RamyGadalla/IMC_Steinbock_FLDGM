@@ -8,7 +8,7 @@ This repository contains scripts and resources for working with Imaging Mass Cyt
 
 - **Python Scripts**: Scripts for data preprocessing and analysis.
 - **R\_spatial**: Contains R scripts related to spatial analysis of IMC data.
-- **CellProfiler Pipelines (******`.cppipe`******\*\*\*\*\*\*\*\*\*\*\*\*)**: Workflows for preparing and segmenting images.
+- **CellProfiler Pipelines (`.cppipe`): Workflows for preparing and segmenting images.
 - **CSV Files**:
   - `images.csv`: List of images and metadata.
   - `panel.csv`: Details about markers used in the IMC.
