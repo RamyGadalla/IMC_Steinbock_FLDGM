@@ -43,7 +43,7 @@ assay(spe, "compcounts") <- assay(spe, "compexprs") <- NULL
 #Image compensation
 #images <- readRDS("data/images.rds")
 channelNames(images) <- rowData(spe)$channel_name
-panel <- read.csv("/Volumes/GoogleDrive/My Drive/spatial/R_spatial/steinbock/panel.csv")
+panel <- read.csv("")
 adapted_sm <- adaptSpillmat(sm, paste0(panel$channel[panel$keep == 1], "Di"), 
                             isotope_list = isotope_list)
 images_comp <- compImage(images, adapted_sm, BPPARAM = MulticoreParam())
@@ -73,13 +73,13 @@ channelNames(images_comp) <- rownames(spe)
 dir.create("/Volumes/GoogleDrive/My Drive/spatial/R_spatial/comp_img")
 lapply(names(images_comp), function(x){
   writeImage(as.array(images_comp[[x]])/(2^16 - 1), 
-             paste0("/Volumes/GoogleDrive/My Drive/spatial/R_spatial/comp_img/", x, ".tiff"),
+             paste0("", x, ".tiff"),
              bits.per.sample = 16)
 })
 
 #saving rds object of compensated single cell data
-saveRDS(spe, "/Volumes/GoogleDrive/My Drive/spatial/RDS/comp_spe_steinbock.rds")
-saveRDS(images_comp, "/Volumes/GoogleDrive/My Drive/spatial/RDS/comp_image_steinbock.rds")
+saveRDS(spe, "")
+saveRDS(images_comp, "")
 
 
 
