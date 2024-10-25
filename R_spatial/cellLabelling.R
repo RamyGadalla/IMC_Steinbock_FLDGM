@@ -8,7 +8,7 @@ metadata(spe)$color_vectors$celltype <- celltype
 
 
 library(SingleCellExperiment)
-label_files <- list.files("/Volumes/GoogleDrive/My Drive/spatial/R_spatial/steinbock/gated_cells", 
+label_files <- list.files("/", 
                           full.names = TRUE, pattern = ".rds$")
 
 # Read in SPE objects
