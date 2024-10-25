@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains scripts and resources for working with Imaging Mass Cytometry (IMC) data using Steinbock and related tools. The project involves preprocessing, segmentation, and analysis of IMC images, leveraging both Python and R scripts, as well as CellProfiler pipelines.
+This repository contains scripts and resources for working with Imaging Mass Cytometry (IMC) data using Steinbock and related tools. The project involves preprocessing, segmentation, and analysis of IMC images, leveraging both Python and R scripts, as well as HistoCAT and CellProfiler pipelines.
 
 ## Repository Structure
 
