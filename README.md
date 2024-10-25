@@ -12,9 +12,9 @@ This repository contains scripts and resources for working with Imaging Mass Cyt
 - **CSV Files**:
   - `images.csv`: List of images and metadata.
   - `panel.csv`: Details about markers used in the IMC.
-- **Shell Script (`steinbock.sh`\*\*\*\*\*\*\*\*\*\*\*\*)**: Script to automate Steinbock processing steps.
-- **RDS File (******`spe_steinbock.rds`******\*\*\*\*\*\*\*\*\*\*\*\*)**: R data object for spatial experiment data.
-- **Ilastik Classifier (******`pixel_classifier.ilp`******\*\*\*\*\*\*\*\*\*\*\*\*)**: Pixel classification model for Ilastik.
+- **Shell Script (`steinbock.sh`): Script to automate Steinbock processing steps.
+- **RDS File (`spe_steinbock.rds`): R data object for spatial experiment data.
+- **Ilastik Classifier (`pixel_classifier.ilp`): Pixel classification model for Ilastik.
 
 ## Usage
 
