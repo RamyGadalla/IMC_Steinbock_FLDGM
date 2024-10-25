@@ -3,9 +3,9 @@ library(openxlsx)
 library(imcRtools)
 
 
-read_steinbock("/Volumes/GoogleDrive/My Drive/spatial/R_spatial/steinbock/") -> spe_stein
+read_steinbock("") -> spe_stein
 
-meta <- read.xlsx("/Volumes/GoogleDrive/My Drive/spatial/sample_metadata.xlsx")
+meta <- read.xlsx("")
 
 spe_stein$patient_id <- as.vector(str_extract_all(spe_stein$sample_id, "Patient[1-4]", simplify = TRUE))
 spe_stein$ROI <- as.vector(str_extract_all(spe_stein$sample_id, "00[1-8]", simplify = TRUE))
@@ -19,4 +19,4 @@ colnames(spe_stein) <- paste0(spe_stein$sample_id, "_", spe_stein$ObjectNumber)
 rowData(spe_stein)$use_channel <- !grepl("DNA|Histone", rownames(spe_stein))
 
 
-saveRDS(spe_stein,'/Volumes/GoogleDrive/My Drive/spatial/RDS/spe_steinbock_use.rds')
+saveRDS(spe_stein,'')
