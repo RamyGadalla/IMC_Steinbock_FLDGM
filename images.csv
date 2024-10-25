@@ -1,0 +1,15 @@
+image,width_px,height_px,num_channels,source_file,recovery_file,recovered,acquisition_id,acquisition_description,acquisition_start_x_um,acquisition_start_y_um,acquisition_end_x_um,acquisition_end_y_um,acquisition_width_um,acquisition_height_um
+Patient4_005.tiff,600,600,40,Patient4.mcd,Patient4_pos1_1_5.txt,False,5,pos1_1,32458.457,7690.581,33058.457,7090.581,600.0,600.0
+Patient4_006.tiff,600,600,40,Patient4.mcd,Patient4_pos1_2_6.txt,False,6,pos1_2,25525.912,8339.273,26125.912,7739.273,600.0,600.0
+Patient4_007.tiff,600,600,40,Patient4.mcd,Patient4_pos1_3_7.txt,False,7,pos1_3,30493.62,7099.099,31093.62,6499.099,600.0,600.0
+Patient4_008.tiff,600,600,40,Patient4.mcd,Patient4_pos1_4_8.txt,False,8,pos1_4,27702.627,7195.411,28302.627,6595.411,600.0,600.0
+Patient3_001.tiff,600,600,40,Patient3.mcd,Patient3_pos1_1_1.txt,False,1,pos1_1,37679.43,15702.352,38279.43,15102.352,600.0,600.0
+Patient3_002.tiff,600,600,40,Patient3.mcd,Patient3_pos1_2_2.txt,False,2,pos1_2,25741.987,15584.012,26341.987,14984.012,600.0,600.0
+Patient3_003.tiff,600,600,40,Patient3.mcd,Patient3_pos1_3_3.txt,False,3,pos1_3,40441.021,10864.065,41041.021,10264.065,600.0,600.0
+Patient2_001.tiff,600,600,40,Patient2.mcd,Patient2_pos1_1_1.txt,False,1,pos1_1,33723.571,17264.358,34323.571,16664.358,600.0,600.0
+Patient2_002.tiff,600,600,40,Patient2.mcd,Patient2_pos1_2_2.txt,False,2,pos1_2,28633.419,17001.645,29233.419,16401.645,600.0,600.0
+Patient2_003.tiff,600,600,40,Patient2.mcd,Patient2_pos1_3_3.txt,False,3,pos1_3,32053.038,12692.41,32653.038,12092.41,600.0,600.0
+Patient2_004.tiff,600,600,40,Patient2.mcd,Patient2_pos1_4_4.txt,False,4,pos1_4,31259.265,9063.552,31859.265,8463.552,600.0,600.0
+Patient1_001.tiff,600,600,40,Patient1.mcd,Patient1_pos1_1_1.txt,False,1,pos1_1,37500.828,17756.254,38100.828,17156.254,600.0,600.0
+Patient1_002.tiff,600,600,40,Patient1.mcd,Patient1_pos1_2_2.txt,False,2,pos1_2,35337.248,11110.774,35937.248,10510.774,600.0,600.0
+Patient1_003.tiff,600,600,40,Patient1.mcd,Patient1_pos1_3_3.txt,False,3,pos1_3,38137.257,8359.816,38737.257,7759.816,600.0,600.0
