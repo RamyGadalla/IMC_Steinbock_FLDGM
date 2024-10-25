@@ -22,5 +22,5 @@ spe <- runUMAP(spe, exprs_values="exprs" , name = "UMAP")
 
 spe
 
-saveRDS(spe, "/Volumes/GoogleDrive/My Drive/spatial/RDS/batch_corrected_spe_stein.rds")
+saveRDS(spe, "")
 
