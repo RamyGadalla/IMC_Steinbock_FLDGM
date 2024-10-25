@@ -33,5 +33,6 @@ This repository contains scripts and resources for working with Imaging Mass Cyt
 
 ![](https://github.com/RamyGadalla/IMC_Steinbock_FLDGM/blob/main/Tissue_archit_graph.png)
 ![](https://github.com/RamyGadalla/IMC_Steinbock_FLDGM/blob/main/interaction.png)
+![](https://github.com/RamyGadalla/IMC_Steinbock_FLDGM/blob/main/umap.png)
 
 ##
